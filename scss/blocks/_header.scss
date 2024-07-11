@@ -1,0 +1,59 @@
+.site-header {
+    padding: 40px 0 74px;
+}
+
+.header{
+    @include Display($items:center, $space:space-between, $gap: 0px);
+}
+.header__logo-wrapper {
+    @include Display($items:center, $space:start, $gap:64px);
+}
+.header_logo-link {
+    display: inline-block;
+}
+
+.header_list {
+    @include Display($items:center, $space:start, $gap:40px);
+}
+
+.header_link {
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: 700px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color:  #36536B;
+}
+
+.header__link-demo {
+   
+    right: 0;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    width: 173px;
+    padding: 14px;
+    box-shadow: 10px 10px 25px -10px #36536B40;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 0px;
+    font-size:15px ;
+    font-weight: 700px;
+    color: #feffff;
+    line-height: 15px;
+    text-transform: inherit;
+    background: #BA4270;
+    
+
+
+    &:hover{
+    opacity: 75%;
+    color: #ffffff;
+}
+}
+
+.text{
+    color: #ffffff;
+    font-family: "DM Serif Display";
+}
